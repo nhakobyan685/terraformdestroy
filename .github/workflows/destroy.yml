@@ -17,5 +17,5 @@ jobs:
         aws-region: us-east-1
 
     - name: Remove Terraform state file
-      run: aws s3 rm s3://nhkabyan685.tfstate/statedir
+      run : aws s3 rm s3://nhkabyan685.tfstate/statedir --recursive
       
