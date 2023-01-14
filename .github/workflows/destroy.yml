@@ -18,3 +18,4 @@ jobs:
 
     - name: Remove Terraform state file
       run: aws s3 rm s3://nhkabyan685.tfstate/statedir
+      
